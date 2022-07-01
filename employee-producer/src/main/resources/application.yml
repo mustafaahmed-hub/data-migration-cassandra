@@ -1,0 +1,11 @@
+server:
+  port: 8094
+
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: employee
+      contact-points: 127.0.0.1
+      port: 9042
+      local-datacenter: datacenter1

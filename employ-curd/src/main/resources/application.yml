@@ -1,0 +1,12 @@
+server:
+  port: 9090
+
+spring :
+  data :
+    cassandra :
+      keyspace-name: employee
+      contact-points: 127.0.0.1
+      port : 9010
+      local-datacenter: datacenter1
+      schema-action: create-if-not-exists
+
